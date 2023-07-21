@@ -79,7 +79,7 @@ Output:
     tokenId: 1n, // tokenId
     name: 'Luffy #2', // Name of NFT
     description: 'A Pirate', // Description
-    image: 'https://evelon.s3.eu-central-1.amazonaws.com/23', // URl of image
+    image: 'https://evelon.s3.eu-central-1.amazonaws.com/23', // URL of image
     attributes: [ [Object], [Object], [Object], [Object], [Object] ] // Array of objects for the attributes
   }
 ]
