@@ -30,6 +30,7 @@ $ yarn add @evelonSDK
 ### Usage
 
 Once installed, you can use SDK by importing it:<br>
+
 <sub>CommonJS / NodeJs Module</sub>
 
 ```
@@ -49,11 +50,12 @@ const config = {
     apiKey: "test_ev_cd153f49193e693ec0434dcb52a9c5a1560d7e13",
     chainId: 1287,
   };
+
 const sdk = new EvelonSDK(config);
 
 ```
 
-After that you can use the object according to your usses.
+After that you can use the object according to your usses.<br>
 To get all the NFTs:
 
 ```
@@ -67,18 +69,18 @@ Output:
 ```
 [
   {
-    tokenId: 0n, // tokenId
+    tokenId: 0n, // TokenId
     name: 'Luffy #1', // Name of NFT
     description: 'A Pirate', // Description
-    image: 'https://evelon.s3.eu-central-1.amazonaws.com/22', // URl of image
-    attributes: [ [Object] ] // Array of objects of attributes
+    image: 'https://evelon.s3.eu-central-1.amazonaws.com/22', // URL of image
+    attributes: [ [Object] ] // Array of objects for the attributes
   },
   {
     tokenId: 1n, // tokenId
     name: 'Luffy #2', // Name of NFT
     description: 'A Pirate', // Description
     image: 'https://evelon.s3.eu-central-1.amazonaws.com/23', // URl of image
-    attributes: [ [Object], [Object], [Object], [Object], [Object]  // Array of objects of attributes ]
+    attributes: [ [Object], [Object], [Object], [Object], [Object] ] // Array of objects for the attributes
   }
 ]
 ```
@@ -98,7 +100,7 @@ const data =  await sdk.modifyNFT({
   });
 ```
 
-This will update the NFT's metadata according to data inserted.
+This will update the NFT's metadata according to data inserted.<br>
 You can update the specific part of metadata, for example if you just want to update the name and description of the NFT you need to fill only those value:
 
 ```
