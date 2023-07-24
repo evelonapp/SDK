@@ -24,7 +24,7 @@ $ npm install evelonsdk
 #### yarn
 
 ```
-$ yarn add @evelonsdk
+$ yarn add evelonsdk
 ```
 
 ### Usage
