@@ -1,9 +1,9 @@
 > **Warning**
 > Version 0.1.0 is under active development.
 
-# <img src="evlnlogo.png" alt="Evelon" height="40px">
+<img src="evlnlogo.png" alt="Evelon" height="40px">
 
-[![NPM Package](https://img.shields.io/badge/npm-v0.1.0-blue)]()
+[![NPM Package](https://img.shields.io/badge/npm-v0.1.0-blue)](https://www.npmjs.com/package/evelonsdk?activeTab=readme)
 [![Docs](https://img.shields.io/badge/docs-%F0%9F%93%84-gold)](https://docs.evelon.app/sdk/documentation/)
 
 **A SDK for getting and updating the NFTs created at Evelon.**
@@ -18,13 +18,13 @@
 #### npm
 
 ```
-$ npm install @evelonSDK
+$ npm install evelonsdk
 ```
 
 #### yarn
 
 ```
-$ yarn add @evelonSDK
+$ yarn add @evelonsdk
 ```
 
 ### Usage
