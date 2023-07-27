@@ -203,7 +203,7 @@ class EvelonSDK {
     formdata.append("description", updateData.description);
     formdata.append("dynamic", 0);
 
-    if (typeof image == "object") {
+    if (typeof updateData.image == "object") {
       formdata.append("image", updateData.image, " ");
     } else {
       formdata.append("image", updateData.image);
