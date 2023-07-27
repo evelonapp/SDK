@@ -219,9 +219,9 @@ class EvelonSDK {
           },
         }
       );
-      return data;
+      return data.data.message;
     } catch (err) {
-      throw TypeError(err.response.data.message);
+      throw TypeError(err.data.message);
     }
   }
 }
